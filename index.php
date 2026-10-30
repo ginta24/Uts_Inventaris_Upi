@@ -22,17 +22,20 @@
 
     <div class="container">
         <h3 style="text-align: center">Daftar Inventaris Upi</h3>
-        <div class="top-bar">
-            <!-- Searching -->
-            <form action="" method="post" class="search-box">
-                <input type="text" name="keyword" placeholder="Cari barang...">
-                <button type="submit" name="cari" class="btn btn-cari">Cari</button>
-            </form>
+      <div class="top-bar">
+    <!-- Searching -->
+    <form action="" method="post" class="search-box">
+        <input type="text" name="keyword" placeholder="Cari barang...">
+        <button type="submit" name="cari" class="btn btn-cari">Cari</button>
+    </form>
 
 
-            <!-- Tambah Data -->
-            <a href="tambah_data.php" class="btn btn-tambah"> Tambah Data</a>
-        </div>
+    <!-- Dashboard & Tambah Data -->
+    <div>
+        <a href="dashboard.php" class="btn btn-cari">Dashboard</a>
+        <a href="tambah_data.php" class="btn btn-tambah"> Tambah Data</a>
+    </div>
+</div>
 
 
         <table>
